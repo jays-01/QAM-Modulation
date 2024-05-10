@@ -39,6 +39,8 @@ modulator modulator_instance (
     .qam_symbol(qam_symbol)
 );
 
+```
+
 ## File Structure
 
 - `modulator.sv` : Verilog source code for the modulator module.
