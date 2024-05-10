@@ -25,7 +25,7 @@ The modulator module is designed to perform modulation of digital data inputs in
 
 To use the modulator module in your Verilog design, follow these steps:
 
-1. Copy the `modulator.v` file into your Verilog project directory.
+1. Copy the `modulator.sv` file into your Verilog project directory.
 2. Instantiate the `modulator` module in your Verilog code, providing appropriate parameters and connecting input and output signals.
 3. Ensure that you also include the necessary modules (`carrier_wave_generator` and `qam16_mapper`) in your project.
 
@@ -38,3 +38,14 @@ modulator modulator_instance (
     .data_in(data_in),
     .qam_symbol(qam_symbol)
 );
+
+## File Structure
+
+- `modulator.sv` : Verilog source code for the modulator module.
+- `carrier_wave_generator.sv`:  Verilog source code for the carrier wave generator module.
+- `qam16_mapper.sv` : Verilog source code for the QAM16 mapper module.
+
+## License
+
+This project is licensed under the MIT License.
+
